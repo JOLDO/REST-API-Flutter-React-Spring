@@ -24,7 +24,7 @@ public class SampleController {
     }
 
     @GetMapping("/doB")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
 //    @PreAuthorize("hasRole('ADMIN')")
     public List<String> doB() {
 
